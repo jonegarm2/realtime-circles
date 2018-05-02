@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
     socket.emit('clear-display');
   });
 
+//test test test test  
   do {
     initials = getInitials();
   } while (initials.length < 2 || initials.length > 3);
